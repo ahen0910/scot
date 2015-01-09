@@ -1,6 +1,11 @@
 #!/bin/bash
 
-#TODO: Quote EVEryThING!!!
+!!!!!!!! CAUTION !!!! CAUTION !!!!!!!!
+!!!!!!!! CAUTION !!!! CAUTION !!!!!!!!
+# ALPHA 0.1a  DO NOT RELY ON THIS FOR PRODUCTION YET
+#NOTE ONLY works on RHEL7 and very hackish still.  Going to make this work on RHEL6 as well, then fold it into install_scot3.sh and do OS detection.  
+!!!!!!!! CAUTION !!!! CAUTION !!!!!!!!
+!!!!!!!! CAUTION !!!! CAUTION !!!!!!!!
 
 #Stop at an undefined variable
 # set -u #KEEP THIS COMMENTED OUT!!!!
