@@ -37,11 +37,12 @@ redis:
   #   - lb
 
 scot:
-  # image: sandia/scot:latest
-  build: .
+  image: sandialabs/scot:latest
+  # build: .
   # dns: 172.17.42.1
   ports:
-    - "127.0.0.1:8080:443"
+    - "443:443"
+    - "80:80"
   links:
     # - lb
     - mongo
